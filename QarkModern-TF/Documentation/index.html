@@ -1,0 +1,1164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251"/>
+<title>QARK Modern - HTML Template</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="top_line" id="top"></div>
+    <div class="wrapper">
+	<div class="one-third">
+        <div class="logo">	
+            <a href="index.html"><img src="images/1px.png" alt=" " width="220px" height="240px"/></a>
+        </div>
+      </div>
+        <div class="one-third over">
+        <h3>Overview:</h3>
+        <p>Hello, firstly I would like to thank you for purchasing <span class="colored">"Qark Modern - HTML Template"</span>.</p>
+        <p class="margin15">If you have any questions that are beyond the scope of this help file, please feel free to email.</p>
+        <p class="margin15">
+        	<p><span class="colored">Creator: </span>Orange Idea</p>
+            <p><span class="colored">Contact: </span><a href="mailto:oithemes@gmail.com">oithemes@gmail.com</a></p>
+            <p><span class="colored">Created On: </span> 04/08/2011</p>
+        </p>
+        </div>
+        <div class="one-third  last">
+        	<h3>Table of Contents:</h3>
+            <ul>
+                <li><a class="link" href="#top">Template overview</a></li>
+                <li><a class="link" href="#get">Getting Started</a></li>
+                <li><a class="link" href="#sliders">Working With Sliders</a></li>
+                <li><a class="link" href="#init">JavaScript initialization</a></li>
+                <li><a class="link" href="#columns">Column Layouts and Headers</a></li>
+                <li><a class="link" href="#lists">Different lists</a></li>
+                <li><a class="link" href="#mbox">Different Boxes</a></li>
+                <li><a class="link" href="#icons">Icons</a></li>
+                <li><a class="link" href="#end">End of documentation</a></li>
+			</ul>
+
+        </div>
+    </div>
+	<div class="one"></div>
+    <div class="content-break margin15">
+        <div class="wrapper">
+            <div class="page-title">
+                <h3 class="colored">Template overview</h3>
+            </div>           
+		</div>
+    </div>        
+    <!-- CONTENT WRAPPER -->
+	<div class="wrapper">
+		<div class="one-third">
+        	<h4>QARK Moredn works in:</h4>
+        	<ul class="check-list">
+                <li>Internet Explorer 7</li>
+                <li>Internet Explorer 8</li>
+                <li>Internet Explorer 9</li>
+                <li>Firefox 3.5</li>
+                <li>Firefox 3.6</li>
+                <li>Firefox 4</li>
+                <li>Safari 4</li>
+                <li>Safari 5</li>
+                <li>Opera</li>
+                <li>Chrome 10</li>
+                <li>Chrome 11</li>
+            </ul>
+		</div>
+        <div class="one-third">
+        	<h4>Template features:</h4>
+        	<ul class="check-list">
+                <li>30 Valid Pages</li>
+                <li>7 Portfolio Pages</li>
+                <li>Awesome Sliders to work with</li>
+                <li>45 Patterns</li>
+                <li>Light and Dark style</li>
+                <li>Unlimited background Colors</li>
+                <li>Pricing Boxes, Shortcodes and more!</li>
+                <li>Working Google Maps</li>
+                <li>JQuery Dropdown menu</li>
+                <li>Many more jQuery Features</li>
+                <li>7PSD File</li>
+            </ul>
+		</div>
+         <div class="one-third last">
+        	<h4>Homepage:</h4>
+        	<ul class="check-list">
+                <li>List Slider</li>
+                <li>Nivo Slider</li>
+                <li>Grid Slider</li>
+                <li>3D Slider</li>
+                <li>Accordian Slider</li>
+                <li>Home page with Vidoe block</li>
+                <li>Home page without Slider</li>
+            </ul>
+		</div>
+    </div>
+	<!---->
+    <div class="one"></div>
+    <div class="content-break margin15">
+<div class="wrapper">
+            <div class="page-title">
+                <h3 class="colored" id="get">Get started</h3>
+            </div> 
+  <div class="one">
+            	<h4>Installation:</h4>
+                <p>QARK Modern is HTML template so there's no really "installation" required just unzip the main file you've downloaded from themeforest and after unziping you have your all template ready to be used.</p>
+                <h4 class="margin15">Setting Up The Grid:</h4>
+                <p>Before starting to work deeper with this template, you'll need to know how to use template's grid, it's simple and easy to use. QARK Modern is being build using one of the most popular grid, the 960 grid, which means your site container is 960px wide.To make it work without problem you be using columns for everything starting from sliders , portfolio , blog and more.</p>
+            	<h4 class="margin15">Working With Navigation:</h4>
+                <p>I have used jQuery improved dropdown menu but the menu itself is easy to edit. Its structure base on a nested unorederd lists structure.</p><p>Your code should look like the following.</p>
+			<div class="one code margin15">
+                    <pre>
+&lt;!-- MAIN NAVIGATION --&gt;
+&lt;div class="menu"&gt;
+    &lt;div class="menu-right-closed"&gt;&lt;/div&gt;
+    &lt;div class="menu-bg"&gt;
+            &lt;ul class="sf-menu"&gt;
+                &lt;li&gt;&lt;a href="index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Features&lt;/a&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;&lt;a href="index.html"&gt;List Slider (Default)&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="homepage-nivo-slider.html"&gt;Nivo Slider&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="homepage-accordian-slider.html"&gt;Accordian Slider&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="homepage-3d-slider.html"&gt;3D Slider&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="homepage-video-block.html"&gt;Video Block&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="homepage-grid.html"&gt;Grid Homepage&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="homepage-static.html"&gt;Static Homepage&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;Menu Second Level&lt;/a&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a href="#"&gt;Some text&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="#"&gt;Another text&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="#"&gt;Third Level Menu&lt;/a&gt;
+                                    &lt;ul&gt;
+                                        &lt;li&gt;&lt;a href="#"&gt;Some text&lt;/a&gt;&lt;/li&gt;
+                                        &lt;li&gt;&lt;a href="#"&gt;Another text&lt;/a&gt;&lt;/li&gt;
+                                    &lt;/ul&gt;	
+                                &lt;/li&gt;
+                            &lt;/ul&gt;	
+                        &lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Pages&lt;/a&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;&lt;a href="about-us.html"&gt;Our Company&lt;/a&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a href="about-us.html"&gt;About Us&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="news.html"&gt;News Archive&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="services.html"&gt;Our Services&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="our-team.html"&gt;Our Team&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="testimonials.html"&gt;Clients Testimonials&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="jobs.html"&gt;Career and Job&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="faq.html"&gt;F.A.Q&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;&lt;a href="typography.html"&gt;Typography and Features&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="columns-layouts.html"&gt;Column Layouts&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="fullwidth-page.html"&gt;Fullwidth Page&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="pricing-boxes.html"&gt;Pricing Boxes&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="404.html"&gt;404 Error&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Portfolio&lt;/a&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;&lt;a href="1-column-portfolio.html"&gt;1 Column Portfolio&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="2-column-portfolio.html"&gt;2 Columns Portfolio&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="3-column-portfolio.html"&gt;3 Columns Portfolio&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="4-column-portfolio.html"&gt;4 Columns Portfolio&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="portfolio-with-sidebar.html"&gt;Portfolio With Sidebar&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="gallery.html"&gt;Gallery&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="portfolio-details.html"&gt;Portfolio Details&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Blog&lt;/a&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;&lt;a href="blog.html"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="blog-2.html"&gt;Blog Style II&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="blog-post.html"&gt;Blog Post&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/li&gt;
+                &lt;li&gt;&lt;a href="contact-us.html"&gt;Contact us&lt;/a&gt;&lt;/li&gt;		
+            &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class="menu-left-closed"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- END MAIN NAVIGATION --&gt;
+                    </pre>
+    </div>
+                <div class="one">Navigation CSS:</div>
+                <div class="one code">
+                	<pre>
+/*-------------------------------------------------------------------------------------------------*/
+	/*SUPERFISH MENU */
+/*-------------------------------------------------------------------------------------------------*/
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.sf-menu ul {
+	position:absolute;
+	top:-999em;
+	width:169px; /* left offset of submenus need to match (see below) */
+}
+.sf-menu ul li {
+	width:169px;
+}
+
+.sf-menu li:hover {
+	visibility:	inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float:left;
+	position:relative;
+}
+.sf-menu a {
+	display:block;
+	position:relative;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:0;
+	top:2.5em; /* match top ul list item height */
+	z-index:99;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:-999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:169px; /* match ul width */
+	top:0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:-999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:169px; /* match ul width */
+	top:0px;
+}
+
+/*** DEMO SKIN ***/
+.sf-menu {
+	font-size:11px;
+	float:left;
+	margin-top:20px;
+}
+.sf-menu a {
+	padding:7px 2em;
+	text-decoration:none;
+}
+.sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+	color:#666666;
+}
+
+.sf-menu a:hover  { /* visited pseudo selector so IE6 applies text colour*/
+	color:#ff0099;
+}
+.sf-menu li {
+	background:#ffffff;
+}
+.sf-menu li li {
+	background:#ffffff;
+}
+.sf-menu li li li {
+	background:#ffffff;
+}
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	outline:0;
+}
+
+/*** arrows **/
+.sf-menu a.sf-with-ul {
+	padding-right:2.25em;
+	min-width:1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+.sf-sub-indicator {
+	position:absolute;
+	display:block;
+	right:.75em;
+	top:1.05em; /* IE6 only */
+	width:	10px;
+	height:	10px;
+	text-indent:-999em;
+	overflow:hidden;
+	background:url('../images/arrows.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+}
+a > .sf-sub-indicator {  /* give all except IE6 the correct values */
+	top:.8em;
+	background-position: 0 -100px; /* use translucent arrow for modern browsers*/
+}
+/* apply hovers to modern browsers */
+a:focus > .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px -100px; /* arrow hovers for modern browsers*/
+}
+
+/* point right for anchors in subs */
+.sf-menu ul .sf-sub-indicator { background-position:  -10px 0; }
+.sf-menu ul a > .sf-sub-indicator { background-position:  0 0; }
+/* apply hovers to modern browsers */
+.sf-menu ul a:focus > .sf-sub-indicator,
+.sf-menu ul a:hover > .sf-sub-indicator,
+.sf-menu ul a:active > .sf-sub-indicator,
+.sf-menu ul li:hover > a > .sf-sub-indicator,
+.sf-menu ul li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px 0; /* arrow hovers for modern browsers*/
+}
+                    </pre>
+                </div>
+				<p>For more information please visit <a class="link" href="http://users.tpg.com.au/j_birch/plugins/superfish/">this site</a></p>
+    </div>
+    <div class="one" id="sliders">
+      <h3>Working With Sliders:</h3>
+      <h4>List slider</h4>
+      <img src="images/list-slider.jpg" alt="" />
+      <div class="one code">
+      <p class="colored">HTML code:</p>
+      	<pre>
+&lt;div id="feature_list"&gt;
+        &lt;ul id="tabs"&gt;
+            &lt;li&gt;
+                &lt;a href="javascript:;"&gt;&lt;img src="images/1.png" alt="" /&gt;
+                &lt;span class="ls-title"&gt;Web Design&lt;/span&gt;
+                &lt;br/&gt;
+                &lt;span class="clear"&gt;Lorem ipsum dolor sit amet consect&lt;/span&gt;
+                &lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;a href="javascript:;"&gt;
+                &lt;img src="images/2.png" alt="" /&gt;
+                &lt;span class="ls-title"&gt;Programming&lt;/span&gt;
+                &lt;br/&gt;
+                &lt;span class="clear"&gt;Lorem ipsum dolor sit amet consect&lt;/span&gt;
+                &lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;a href="javascript:;"&gt;
+                &lt;img src="images/3.png" alt="" /&gt;
+                &lt;span class="ls-title"&gt;Applications&lt;/span&gt;
+                &lt;br/&gt;
+                &lt;span class="clear"&gt;Lorem ipsum dolor sit amet consect&lt;/span&gt;
+                &lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;a href="javascript:;"&gt;
+                &lt;img src="images/4.png" alt="" /&gt;
+                &lt;span class="ls-title"&gt;Marketing&lt;/span&gt;
+                &lt;br/&gt;
+                &lt;span class="clear"&gt;Lorem ipsum dolor sit amet consect&lt;/span&gt;
+                &lt;/a&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;ul id="output"&gt;
+            &lt;li&gt;
+                &lt;img src="images/abc-1.jpg" alt="" /&gt;
+                &lt;a href="#"&gt;See project details&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;img src="images/abc-2.jpg" alt="" /&gt;
+                &lt;a href="#"&gt;See project details&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;img src="images/abc-3.jpg" alt="" /&gt;
+                &lt;a href="#"&gt;See project details&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;img src="images/abc-4.jpg" alt="" /&gt;
+                &lt;a href="#"&gt;See project details&lt;/a&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+        </pre>
+      </div>
+	 <div class="one">
+      <h4>NIVO Slider</h4>
+      <img src="images/nivo-slider.jpg" alt="" />
+      <div class="one code">
+      <p class="colored">HTML code:</p>
+      <pre>
+&lt;div class="slider-wrapper theme-default"&gt;
+    &lt;div id="slider" class="nivoSlider"&gt;
+        &lt;img src="images/slide-1.jpg" alt="" /&gt;
+        &lt;a href=""&gt;&lt;img src="images/slide-2.jpg" alt="" title="This is an example of a caption" /&gt;&lt;/a&gt;
+        &lt;img src="images/slide-3.jpg" alt="" /&gt;
+        &lt;img src="images/slide-4.jpg" alt="" title="#htmlcaption" /&gt;
+    &lt;/div&gt;
+    &lt;div id="htmlcaption" class="nivo-html-caption"&gt;
+        &lt;strong&gt;This&lt;/strong&gt; is an example of a &lt;em&gt;HTML&lt;/em&gt; caption with &lt;a href="#"&gt;a link&lt;/a&gt;.
+&lt;/div&gt;
+      </pre>
+	</div>
+    </div>
+	<div class="one">
+      <h4>ACCORDIAN Slider</h4>
+      <img src="images/accordian-slider.jpg" alt="" />
+      <div class="one code">
+      <p class="colored">HTML code:</p>
+      <pre>
+&lt;div class="kwicks-box"&gt;
+    &lt;ul class="kwicks horizontal" &gt;
+        &lt;li id="kwick_1"&gt;&lt;img src="images/slide-1.jpg" alt="" /&gt;
+            &lt;a href=""&gt;
+                &lt;p class="accordian-slider-caption"&gt;
+                    &lt;span class="accordian-slider-captiontitle"&gt;
+                        Tyrum in fuerat construeret.
+                    &lt;/span&gt;
+                    &lt;span&gt;
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut tortor enim, sit amet eleifend lorem. Dolor sit amet, consectetur adipiscing elit.
+                    &lt;/span&gt;
+                &lt;/p&gt;
+            &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li id="kwick_2"&gt;&lt;img src="images/slide-2.jpg" alt="" /&gt;
+            &lt;a href=""&gt;
+                &lt;p class="accordian-slider-caption"&gt;
+                    &lt;span class="accordian-slider-captiontitle"&gt;
+                        Tyrum in fuerat construeret.
+                    &lt;/span&gt;
+                    &lt;span&gt;
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut tortor enim, sit amet eleifend lorem. Dolor sit amet, consectetur adipiscing elit.
+                    &lt;/span&gt;
+                &lt;/p&gt;
+            &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li id="kwick_3"&gt;&lt;img src="images/slide-3.jpg" alt="" /&gt;
+            &lt;a href=""&gt;
+                &lt;p class="accordian-slider-caption"&gt;
+                    &lt;span class="accordian-slider-captiontitle"&gt;
+                        Tyrum in fuerat construeret.
+                    &lt;/span&gt;
+                    &lt;span&gt;
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut tortor enim, sit amet eleifend lorem. Dolor sit amet, consectetur adipiscing elit.
+                    &lt;/span&gt;
+                &lt;/p&gt;
+            &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li id="kwick_4"&gt;&lt;img src="images/slide-4.jpg" alt="" /&gt;
+            &lt;a href=""&gt;
+                &lt;p class="accordian-slider-caption"&gt;
+                    &lt;span class="accordian-slider-captiontitle"&gt;
+                        Tyrum in fuerat construeret.
+                    &lt;/span&gt;
+                    &lt;span&gt;
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut tortor enim, sit amet eleifend lorem. Dolor sit amet, consectetur adipiscing elit.
+                    &lt;/span&gt;
+                &lt;/p&gt;
+            &lt;/a&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+      </pre>
+	</div>
+	<div class="one">
+      <h4>3D Slider</h4>
+      <img src="images/3d-slider.jpg" alt="" />
+      <div class="one code">
+      <p class="colored">HTML code:</p>
+      <pre>
+&lt;div id="piecemaker"&gt;
+    &lt;p&gt;
+        Put your alternative Non Flash content here.
+    &lt;/p&gt;
+&lt;/div&gt;
+      </pre>
+	</div>
+    </div>
+    </div>
+	<div class="one">
+      <h4>GRID Slider</h4>
+      <img src="images/grid-slider.jpg" alt="" />
+      <div class="one code">
+      <p class="colored">HTML code:</p>
+      <pre>
+&lt;div class="mosaic-block mb2 cover"&gt;
+    &lt;div class="mosaic-overlay"&gt;&lt;img src="images/m2.jpg" alt="" /&gt;&lt;/div&gt;
+    &lt;a href="" target="_blank" class="mosaic-backdrop"&gt;
+        &lt;div class="details"&gt;
+            &lt;h4&gt;Mounted iMac And Desk Mod With Computer Components Built In&lt;/h4&gt;
+            &lt;p&gt;via Desktopped&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="mosaic-block mb4 bar"&gt;
+    &lt;a href="http://www.nonsensesociety.com/2011/01/sloppy-art/" target="_blank" class="mosaic-overlay"&gt;
+        &lt;div class="details"&gt;
+            &lt;h4&gt;Sloppy Art - A Mess of Inspiration&lt;/h4&gt;
+            &lt;p&gt;via the Nonsense Society (image credit: Florian&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/a&gt;
+    &lt;div class="mosaic-backdrop"&gt;&lt;img src="images/m4.jpg" alt="" /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="mosaic-block mb1 cover2"&gt;
+    &lt;a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay"&gt;&lt;img src="images/m1.jpg" alt="" /&gt;&lt;/a&gt;
+    &lt;a href="http://yourather.com/questions/135" target="_blank" class="mosaic-backdrop"&gt;
+        &lt;div class="details"&gt;
+            &lt;h4&gt;Hardest Choice Ever&lt;/h4&gt;
+            &lt;p&gt;via You Rather&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="mosaic-block mb5 bar3"&gt;
+    &lt;div class="mosaic-overlay"&gt;&lt;img src="images/m5.jpg" alt="" /&gt;&lt;/div&gt;
+    &lt;a href="" target="_blank" class="mosaic-backdrop"&gt;
+    &lt;div class="details"&gt;
+        &lt;h4&gt;Mounted iMac And Desk Mod With Computer Components Built In&lt;/h4&gt;
+        &lt;p&gt;via Desktopped&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;/a&gt;
+&lt;/div&gt;   
+&lt;div class="mosaic-block mb5 cover3"&gt;
+    &lt;div class="mosaic-overlay"&gt;&lt;img src="images/m5-1.jpg" alt="" /&gt;&lt;/div&gt;
+    &lt;a href="" target="_blank" class="mosaic-backdrop"&gt;
+        &lt;div class="details"&gt;
+            &lt;h4&gt;Mounted iMac And Desk Mod With Computer Components Built In&lt;/h4&gt;
+            &lt;p&gt;via Desktopped&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/a&gt;
+&lt;/div&gt;  
+&lt;div class="mosaic-block fade mb3"&gt;
+    &lt;a href="http://buildinternet.com/project/mightyicons/" target="_blank" class="mosaic-overlay"&gt;
+        &lt;div class="details"&gt;
+            &lt;h4&gt;Mighty Social Icons&lt;/h4&gt;
+            &lt;p&gt;By Build Internet&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/a&gt;
+    &lt;div class="mosaic-backdrop"&gt;&lt;img src="images/m3.jpg" alt="" /&gt;&lt;/div&gt;
+&lt;/div&gt;    
+      </pre>
+	</div>
+    </div>
+    <div class="one">
+      <h4>VIDEO BLOCK</h4>
+      <img src="images/video-slider.jpg" alt="" />
+      <div class="one code">
+      <p class="colored">HTML code:</p>
+      <pre>
+&lt;div id="video-block"&gt;
+    &lt;iframe src="http://player.vimeo.com/video/23534361?title=0&lt;amp;byline=0&lt;amp;portrait=0" width="940" height="350" &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+      </pre>
+	</div>
+    </div>  
+    <div class="one" id="init"><h3>JavaScript initialization</h3></div>    
+    <div class="one">
+      <h4>LIST Slider</h4>
+      <div class="one code">
+      <p class="colored">JS code:</p>
+      <pre>
+jQuery.noConflict()(function($){
+    $(document).ready(function() {
+
+        $.featureList(
+            $("#tabs li a"),
+            $("#output li"), {
+                start_item	:	1
+            }
+        );
+    });
+});
+      </pre>
+	</div>
+    </div> 
+    <div class="one">
+      <h4>NIVO Slider</h4>
+      <div class="one code">
+      <p class="colored">JS code:</p>
+      <pre>
+jQuery.noConflict()(function($){
+	$(document).ready(function() {
+        $('#slider').nivoSlider({
+            pauseTime:5000,
+            pauseOnHover:false
+        });        
+    });
+});
+      </pre>
+	</div>
+    </div> 
+    <div class="one">
+      <h4>ACCORDIAN Slider</h4>
+      <div class="one code">
+      <p class="colored">JS code:</p>
+      <pre>
+jQuery.noConflict()(function($){
+    $('.kwicks').kwicks({
+        max : 900,
+        spacing : 0
+    });
+});
+      </pre>
+	</div>
+    </div> 
+    <div class="one">
+      <h4>3D Slider</h4>
+      <div class="one code">
+      <p class="colored">JS code:</p>
+      <pre>
+      var flashvars = {};
+      flashvars.cssSource = "css/piecemaker.css";
+      flashvars.xmlSource = "js/piecemaker-2/piecemaker.xml";
+      var params = {};
+      params.play = "true";
+      params.menu = "false";
+      params.scale = "showall";
+      params.wmode = "transparent";
+      params.allowfullscreen = "true";
+      params.allowscriptaccess = "always";
+      params.allownetworking = "all";
+      swfobject.embedSWF('js/piecemaker-2/piecemaker.swf', 'piecemaker', '940', '350', '0', null, flashvars,    
+      params, null);
+      </pre>
+	</div>
+    </div> 
+    <div class="one">
+      <h4>GRID Slider</h4>
+      <div class="one code">
+      <p class="colored">JS code:</p>
+      <pre>
+jQuery.noConflict()(function($){
+        
+        $('.circle').mosaic({
+            opacity		:	0.8			//Opacity for overlay (0-1)
+        });
+        
+        $('.fade').mosaic();
+        
+        $('.bar').mosaic({
+            animation	:	'slide'		//fade or slide
+        });
+        
+        $('.bar2').mosaic({
+            animation	:	'slide'		//fade or slide
+        });
+        
+        $('.bar3').mosaic({
+            animation	:	'slide',	//fade or slide
+            anchor_y	:	'top'		//Vertical anchor position
+        });
+        
+        $('.cover').mosaic({
+            animation	:	'slide',	//fade or slide
+            hover_x		:	'400px'		//Horizontal position on hover
+        });
+        
+        $('.cover2').mosaic({
+            animation	:	'slide',	//fade or slide
+            anchor_y	:	'top',		//Vertical anchor position
+            hover_y		:	'80px'		//Vertical position on hover
+        });
+        
+        $('.cover3').mosaic({
+            animation	:	'slide',	//fade or slide
+            hover_x		:	'400px',	//Horizontal position on hover
+            hover_y		:	'300px'		//Vertical position on hover
+        });
+    
+    });		
+      </pre>
+	</div>
+    </div>
+    <div class="one" id="columns"><h3>Column Layouts and Headers</h3></div>
+    <div class="one-fourth left">
+        <div class="header-one-fourth">
+            <div class="header-content">One Fourth</div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a ipsum ut odio lobortis consequat nec at orci.</p>
+    </div>
+    <div class="one-fourth left">
+        <div class="header-one-fourth">
+            <div class="header-content">One Fourth</div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a ipsum ut odio lobortis consequat nec at orci.</p>
+    </div>
+    <div class="one-half left last">
+        <div class="header-one-half">
+            <div class="header-content">One Half Last</div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a ipsum ut odio lobortis consequat nec at orci. Sed porttitor enim in neque consectetur sit amet porttitor orci commodo. Maecenas ac ante interdum magna rhoncus aliquet vel ac massa.</p>
+    </div>
+    <div class="three-fourth left">
+    <div class="header-three-fourth">
+            <div class="header-content">Tthree Fourth</div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a ipsum ut odio lobortis consequat nec at orci. Sed porttitor enim in neque consectetur sit amet porttitor orci commodo. Maecenas ac ante interdum magna rhoncus aliquet vel ac massa. Proin tristique enim non massa laoreet sollicitudin. Ut quam nisl, placerat vel ullamcorper id posuere.</p>
+        </div>
+	<div class="one-fourth last">
+		<div class="header-one-fourth">
+            <div class="header-content">One Fourth Last</div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a ipsum ut odio lobortis consequat nec at orci. </p>
+	</div>
+    <div class="one-third left">
+    <div class="header-one-third">
+            <div class="header-content">One Third</div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a ipsum ut odio lobortis consequat nec at orci. Sed porttitor enim in neque consectetur sit amet porttitor orci commodo. Maecenas ac ante interdum magna rhoncus aliquet vel ac massa. Proin tristique enim non massa laoreet sollicitudin. Ut quam nisl, placerat vel ullamcorper id posuere.</p>
+	 </div>
+	<div class="two-third last">
+    <div class="header-two-third">
+            <div class="header-content">Tthree Third Last</div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a ipsum ut odio lobortis consequat nec at orci. Sed porttitor enim in neque consectetur sit amet porttitor orci commodo. Maecenas ac ante interdum magna rhoncus aliquet vel ac massa. Proin tristique enim non massa laoreet sollicitudin. Ut quam nisl, placerat vel ullamcorper id posuere.</p>
+	</div>
+    <div class="one">
+	<div class="header-one">
+            <div class="header-content">One</div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a ipsum ut odio lobortis consequat nec at orci. Sed porttitor enim in neque consectetur sit amet porttitor orci commodo. Maecenas ac ante interdum magna rhoncus aliquet vel ac massa. Proin tristique enim non massa laoreet sollicitudin. Ut quam nisl, placerat vel ullamcorper id posuere.</p>
+	 </div>
+    <div class="one">
+      <div class="one code">
+      <pre>
+<p class="colored">Column Layouts:</p>
+===ONE FOURTH COLUMN===
+
+&lt;div class="one-fourth"&gt;
+    &lt;div class="header-one-fourth"&gt;
+        &lt;div class="header-content"&gt;HEADER TITLE&lt;/div&gt;
+    &lt;/div&gt;
+    COLUMN CONTENT
+&lt;/div&gt;
+============================
+
+
+===ONE HALF COLUMN===
+
+&lt;div class="one-half"&gt;
+    &lt;div class="header-one-half"&gt;
+        &lt;div class="header-content"&gt;HEADER TITLE&lt;/div&gt;
+    &lt;/div&gt;
+    COLUMN CONTENT
+&lt;/div&gt;
+============================
+
+
+===THREE FOURTH COLUMN===
+
+&lt;div class="three-fourth"&gt;
+    &lt;div class="header-three-fourth"&gt;
+        &lt;div class="header-content"&gt;HEADER TITLE&lt;/div&gt;
+    &lt;/div&gt;
+    COLUMN CONTENT
+&lt;/div&gt;
+============================
+
+
+===ONE THIRD COLUMN===
+
+&lt;div class="one-third"&gt;
+    &lt;div class="header-one-third"&gt;
+        &lt;div class="header-content"&gt;HEADER TITLE&lt;/div&gt;
+    &lt;/div&gt;
+    COLUMN CONTENT
+&lt;/div&gt;
+============================
+
+
+===TWO THIRD COLUMN===
+
+&lt;div class="two-third"&gt;
+    &lt;div class="header-two-third"&gt;
+        &lt;div class="header-content"&gt;HEADER TITLE&lt;/div&gt;
+    &lt;/div&gt;
+    COLUMN CONTENT
+&lt;/div&gt;
+============================
+
+      </pre>
+	</div>
+    </div>
+    <div class="one" id="lists"><h3>Different lists </h3></div>
+                	<div class="one">
+                	<div class="one-fourth left notopmargin">
+                        <div class="header-one-fourth">
+                            <div class="header-content">Check list</div>
+                        </div>
+                        <ul class="check-list">
+                            <li>About Us</li>
+                            <li>News Archive</li>
+                            <li>Our Service</li>
+                            <li>Our Team</li>
+                            <li>Clients Testimonials</li>
+                            <li>Job Opportunities</li>
+                            <li class="list-last">F.A.Q</li>
+						</ul>
+                    </div>
+                    <div class="one-fourth left notopmargin">
+                        <div class="header-one-fourth">
+                            <div class="header-content">Cancel list</div>
+                        </div>
+                        <ul class="cancel-list">
+                            <li>About Us</li>
+                            <li>News Archive</li>
+                            <li>Our Service</li>
+                            <li>Our Team</li>
+                            <li>Clients Testimonials</li>
+                            <li>Job Opportunities</li>
+                            <li class="list-last">F.A.Q</li>
+						</ul>
+                    </div>
+                    <div class="one-fourth notopmargin">
+                        <div class="header-one-fourth">
+                            <div class="header-content">Info list</div>
+                        </div>
+                        <ul class="info-list">
+                            <li>About Us</li>
+                            <li>News Archive</li>
+                            <li>Our Service</li>
+                            <li>Our Team</li>
+                            <li>Clients Testimonials</li>
+                            <li>Job Opportunities</li>
+                            <li class="list-last">F.A.Q</li>
+                        </ul>
+                    </div>
+                    <div class="one-fourth last notopmargin">
+                        <div class="header-one-fourth">
+                            <div class="header-content">Question list</div>
+                        </div>
+                        <ul class="question-list">
+                            <li>About Us</li>
+                            <li>News Archive</li>
+                            <li>Our Service</li>
+                            <li>Our Team</li>
+                            <li>Clients Testimonials</li>
+                            <li>Job Opportunities</li>
+                            <li class="list-last">F.A.Q</li>
+                        </ul>
+                    </div>
+                    <div class="one-fourth left">
+                        <div class="header-one-fourth">
+                            <div class="header-content">Warning list</div>
+                        </div>
+                        <ul class="warning-list">
+                            <li>About Us</li>
+                            <li>News Archive</li>
+                            <li>Our Service</li>
+                            <li>Our Team</li>
+                            <li>Clients Testimonials</li>
+                            <li>Job Opportunities</li>
+                            <li class="list-last">F.A.Q</li>
+                        </ul>
+                    </div>
+                    <div class="one-fourth last">
+                        <div class="header-one-fourth">
+                            <div class="header-content">Arrow list</div>
+                        </div>
+                        <ul class="arrow-list">
+                            <li>About Us</li>
+                            <li>News Archive</li>
+                            <li>Our Service</li>
+                            <li>Our Team</li>
+                            <li>Clients Testimonials</li>
+                            <li>Job Opportunities</li>
+                            <li class="list-last">F.A.Q</li>
+                        </ul>
+					</div>
+				</div>
+	<div class="one code clear">
+      <p class="colored">HTML code (arrow list):</p>
+      <pre>
+&lt;ul class="arrow-list"&gt;
+    &lt;li&gt;About Us&lt;/li&gt;
+    &lt;li&gt;News Archive&lt;/li&gt;
+    &lt;li&gt;Our Service&lt;/li&gt;
+    &lt;li&gt;Our Team&lt;/li&gt;
+    &lt;li&gt;Clients Testimonials&lt;/li&gt;
+    &lt;li&gt;Job Opportunities&lt;/li&gt;
+    &lt;li class="list-last"&gt;F.A.Q&lt;/li&gt;
+&lt;/ul&gt;
+      </pre>
+	</div>
+    	<div class="one code">
+      <p class="colored">CSS Code:</p>
+      <pre>
+.check-list {
+	font-size:12px;
+	list-style-type:none;
+	list-style-position:outside;
+}
+.check-list li {
+	margin:0px;	
+	display:block;
+	padding:11px 0px 11px 35px;
+	background: url(../images/check.png) no-repeat;
+	background-position:left center;
+	border-top:1px dashed #999999;
+	font-style:italic;
+}
+.list-last {
+	border-bottom:1px dashed #999999
+}
+.info-list {
+	font-size:12px;
+	list-style-type:none;
+	list-style-position:outside;
+}
+.info-list li {
+	margin:0px;	
+	display:block;
+	padding:11px 0px 11px 35px;
+	background: url(../images/info.png) no-repeat;
+	background-position:left center;
+	border-top:1px dashed #999999;
+	font-style:italic;
+}
+.cancel-list {
+	font-size:12px;
+	list-style-type:none;
+	list-style-position:outside;
+}
+.cancel-list li {
+	margin:0px;	
+	display:block;
+	padding:11px 0px 11px 35px;
+	background: url(../images/cancel.png) no-repeat;
+	background-position:left center;
+	border-top:1px dashed #999999;
+	font-style:italic;
+}
+.question-list {
+	font-size:12px;
+	list-style-type:none;
+	list-style-position:outside;
+}
+.question-list li {
+	margin:0px;	
+	display:block;
+	padding:11px 0px 11px 35px;
+	background: url(../images/question.png) no-repeat;
+	background-position:left center;
+	border-top:1px dashed #999999;
+	font-style:italic;
+}
+.warning-list {
+	font-size:12px;
+	list-style-type:none;
+	list-style-position:outside;
+}
+.warning-list li {
+	margin:0px;	
+	display:block;
+	padding:11px 0px 11px 35px;
+	background:url(../images/warning.png) no-repeat;
+	background-position:left center;
+	border-top:1px dashed #999999;
+	font-style:italic;
+}
+.arrow-list {
+	font-size:12px;
+	list-style-type:none;
+	list-style-position:outside;
+}
+.arrow-list li{
+	margin:0px;	
+	display:block;
+	padding:11px 0px 11px 35px;
+	background: url(../images/list-arrow.png) no-repeat;
+	background-position:left center;
+	border-top:1px dashed #999999;
+	font-style:italic;
+}
+      </pre>
+	</div>
+    </div>
+    <div class="one"></div>
+    <div class="one" id="mbox">
+    <h3>Different Boxes</h3>
+        <div class="info-box-purple">
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos in quis risus.</div>
+        <div class="info-box-green">
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos in quis risus.</div>
+        <div class="info-box-blue">
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos in quis risus.</div>
+    	</div>
+    <div class="one code">
+      <p class="colored">HTML code:</p>
+      <pre>
+&lt;div class="info-box-purple"&gt;
+    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos in quis risus.&lt;/div&gt;
+&lt;div class="info-box-green"&gt;
+    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos in quis risus.&lt;/div&gt;
+&lt;div class="info-box-blue"&gt;
+    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos in quis risus.&lt;/div&gt;
+&lt;/div&gt;
+      </pre>
+	</div>
+    <div class="one code">
+      <p class="colored">CSS code:</p>
+      <pre>
+	.info-box-purple {
+		border:1px solid #cc0066;
+		padding: 20px 60px;
+		background:#ff0099 url(../images/cancel-box.png) no-repeat 10px 15px;
+		color:#ffffff;
+		text-shadow:none;
+		margin-bottom:15px;
+	}
+	.info-box-green {
+		border:1px solid #009900;
+		padding: 20px 60px;
+		background:#00CC33 url(../images/check-box.png) no-repeat 10px 15px;
+		color:#ffffff;
+		text-shadow:none;
+		margin-bottom:15px;
+	}
+	.info-box-blue {
+		border:1px solid #006699;
+		padding: 20px 60px;
+		background:#0099FF url(../images/info-box.png) no-repeat 10px 15px;
+		color:#ffffff;
+		text-shadow:none;
+		margin-bottom:15px;
+	}
+      </pre>
+	</div>
+    <div class="clear"></div>
+    <div class="one" id="icons">
+    <h3>ICONS</h3>
+	<img class="icon"  src="images/icons/icon-1.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-2.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-3.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-4.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-5.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-6.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-7.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-8.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-9.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-10.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-11.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-12.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-13.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-14.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-15.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-16.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-17.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-18.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-19.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-20.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-21.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-22.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-23.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-24.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-25.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-26.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-27.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-28.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-29.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-30.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-31.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-32.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-33.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-34.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-35.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-36.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-37.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-38.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-39.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-40.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-41.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-42.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-43.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-44.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-45.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-46.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-47.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-48.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-49.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-50.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-51.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-52.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-53.png" alt=" "/>
+    <img class="icon"  src="images/icons/icon-54.png" alt=" "/>
+	<div class="one code">
+      <p class="colored">HTML code:</p>
+      <pre>
+    &lt;img class="icon"  src="images/icons/icon-1.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-2.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-3.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-4.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-5.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-6.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-7.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-8.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-9.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-10.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-11.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-12.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-13.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-14.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-15.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-16.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-17.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-18.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-19.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-20.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-21.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-22.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-23.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-24.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-25.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-26.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-27.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-28.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-29.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-30.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-31.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-32.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-33.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-34.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-35.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-36.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-37.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-38.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-39.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-40.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-41.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-42.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-43.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-44.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-45.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-46.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-47.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-48.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-49.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-50.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-51.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-52.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-53.png" alt=" "/&gt;
+    &lt;img class="icon"  src="images/icons/icon-54.png" alt=" "/&gt;
+      </pre>
+	</div>
+    <div class="one code">
+      <p class="colored">CSS code:</p>
+      <pre>
+    .icon {
+        padding-right:20px;
+        padding-bottom:10px;
+    }
+      </pre>
+	</div>
+    </div>
+    <div class="one" id="end"><h3>End of documentation</h3></div>
+    <p>Once again, thank you so much for purchasing this theme.</p>
+    <div class="one"></div>
+    <div class="clear"></div>
+    </div>
+    </div> 
+	<div class="clear"></div>
+	<div class="top_line margin15"></div>
+
+	<!-- END CONTENT -->
+
+</body>
+</html>
